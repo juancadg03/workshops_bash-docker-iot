@@ -1,0 +1,6 @@
+=== REPORTE DE ANÁLISIS DE LOGS ===
+1. Cantidad total de registros: 7
+2. Cantidad de errores (ERROR): 3
+3. Cantidad de advertencias (WARN): 1
+4. Usuario con más errores:       3 juan
+5. IP con más errores:       3 192.168.1.15

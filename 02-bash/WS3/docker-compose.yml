@@ -1,0 +1,12 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - ./shared-logs:/var/log/nginx
+
+  ubuntu-service:
+    build: ./ubuntu
+    volumes:
+      - ./shared-logs:/logs
